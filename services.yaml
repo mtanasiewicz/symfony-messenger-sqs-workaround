@@ -1,0 +1,4 @@
+App\Messenger\Transport\AmazonSqsTransportFactoryDecorator:
+    decorates: messenger.transport.sqs.factory
+    arguments:
+        $inner: '@.inner'
